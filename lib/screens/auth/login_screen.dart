@@ -1,9 +1,10 @@
 
-import 'package:admin_front/screens/home_screen.dart';
-import 'package:admin_front/screens/password_confirm_screen.dart';
-import 'package:admin_front/screens/registration_screen.dart';
+import 'package:admin_front/screens/auth/password_confirm_screen.dart';
+import 'package:admin_front/screens/auth/registration_screen.dart';
+import 'package:admin_front/screens/store/home_screen.dart';
 import 'package:admin_front/widgets/custom_button.dart';
 import 'package:admin_front/widgets/custom_text_field.dart';
+
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {

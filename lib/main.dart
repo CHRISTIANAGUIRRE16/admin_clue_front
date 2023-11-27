@@ -1,7 +1,9 @@
-import 'package:admin_front/screens/login_screen.dart';
 import 'package:flutter/material.dart';
-import 'screens/welcome_screen.dart';
-import 'screens/registration_screen.dart';
+
+import 'package:admin_front/screens/auth/login_screen.dart';
+import 'package:admin_front/screens/auth/registration_screen.dart';
+import 'package:admin_front/screens/clue/welcome_screen.dart';
+
 
 void main() {
   runApp(MyApp());
